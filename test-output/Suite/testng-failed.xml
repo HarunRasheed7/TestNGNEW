@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="ff(failed)">
+    <parameter name="browsername" value="ff"/>
+    <classes>
+      <class name="com.testng.org.CrossBrowser">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testng.org.CrossBrowser -->
+    </classes>
+  </test> <!-- ff(failed) -->
+</suite> <!-- Failed suite [Suite] -->
